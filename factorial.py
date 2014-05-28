@@ -11,10 +11,10 @@ def factorial(n):
 
 def main():
     try:
-        n = int(raw_input('Entre com um dígito: '))
+        n = int(raw_input('Entre com um número inteiro: '))
         print 'factorial(%i) = %i' % (n, factorial(n))
     except ValueError:
-        print 'Somente dígitos são aceitos!'
+        print 'Somente números inteiros são aceitos!'
         main()
 
 if __name__ == '__main__':
