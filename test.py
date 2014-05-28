@@ -15,7 +15,7 @@ class TestFactorialFunction(unittest.TestCase):
         self.assertEqual(factorial(3), 6)
 
     def test_factorial_should_return_the_same_value_as_math_factorial(self):
-        n = random.randint(1, 100)
+        n = random.randint(0, 100)
 
         self.assertEqual(factorial(n), math.factorial(n))
 
