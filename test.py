@@ -7,7 +7,7 @@ import random
 from factorial import factorial
 
 
-class TestFactorialFunction(unittest.TestCase):
+class FactorialTestCase(unittest.TestCase):
     def test_factorial_of_0_should_return_1(self):
         self.assertEqual(factorial(0), 1)
 
