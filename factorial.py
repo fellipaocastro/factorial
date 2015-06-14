@@ -2,17 +2,17 @@
 # coding: utf-8
 
 
-def factorial(n):
-    if n == 0:
+def factorial(number):
+    if number == 0:
         return 1
     else:
-        return n * factorial(n - 1)
+        return number * factorial(number - 1)
 
 
 def main():
     try:
-        n = int(raw_input('Entre com um número inteiro: '))
-        print 'factorial(%i) = %i' % (n, factorial(n))
+        number = int(raw_input('Entre com um número inteiro: '))
+        print 'factorial(%i) = %i' % (number, factorial(number))
     except ValueError:
         print 'Somente números inteiros são aceitos!'
         main()
