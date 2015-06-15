@@ -8,7 +8,7 @@ from factorial import factorial
 def main():
     try:
         number = int(raw_input('Entre com um número inteiro: '))
-        print 'factorial({0}) = {1}'.format(number, factorial(number))
+        print 'factorial({}) = {}'.format(number, factorial(number))
     except ValueError:
         print 'Somente números inteiros são aceitos!'
         main()
